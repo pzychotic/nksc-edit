@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{37AA6041-CAF2-48A8-ADFE-57136C0C0644}</ProjectGuid>
+    <RootNamespace>nkscCore</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Base64.cpp" />
+    <ClCompile Include="NineEdits.cpp" />
+    <ClCompile Include="NkscFile.cpp" />
+    <ClCompile Include="XmlEscape.cpp" />
+    <ClCompile Include="..\..\external\tinyxml2\tinyxml2.cpp">
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>false</SDLCheck>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Base64.h" />
+    <ClInclude Include="NineEdits.h" />
+    <ClInclude Include="NkscFile.h" />
+    <ClInclude Include="WhiteBalance.h" />
+    <ClInclude Include="XmlEscape.h" />
+    <ClInclude Include="..\..\external\tinyxml2\tinyxml2.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

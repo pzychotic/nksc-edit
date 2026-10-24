@@ -1,0 +1,434 @@
+<userData>
+    <filter id="nikon::ColorShift">
+        <active>false</active>
+        <parameters>
+            <colorCorrection>0</colorCorrection>
+        </parameters>
+    </filter>
+    <filter id="nikon::DLightingHS">
+        <active>false</active>
+        <parameters>
+            <highlightAdjustment>0</highlightAdjustment>
+            <colorBoost>60</colorBoost>
+        </parameters>
+    </filter>
+    <filter id="nikon::WhiteBalance">
+        <active>false</active>
+        <parameters>
+            <integer name="version">9</integer>
+            <binary name="Data">AAAAAACw/T8AAAAAAKjzPwIAAAAAAgAAThcAAAAAAAAAAADwPwAAAAApXI/C
+9SjMvwAAAAAAAAAA
+</binary>
+        </parameters>
+    </filter>
+    <filter id="nik::Straighten">
+        <active>false</active>
+        <parameters>
+            <integer name="autoCrop">0</integer>
+            <double name="rotateAngle">0</double>
+            <integer name="rotateMode">2</integer>
+        </parameters>
+    </filter>
+    <filter id="nikon::PictureControl">
+        <active>true</active>
+        <parameters>
+            <Export>
+                <ExportData>TkNQAAAAAQAAAAAEMDMxMAAAAgAAAAAUU1RBTkRBUkQAAAAAAAAAAAAAAAAA
+AAMAAAAAAgABAAAEAAAAAAIAAAAABQAAAAAC/wEAAAYAAAAAAowEAAAHAAAA
+AAKEBAAACAAAAAACgAQAAAkAAAAAAoAEAAAKAAAAAAKABAAACwAAAAACgAQA
+AAwAAAAAAv8AAAANAAAAAAL/AAAADgAAAAAC/wQAAA8AAAAAAv8BAAAQAAAA
+AAL/AQAAEQAAAAAC/wEAABIAAAAAAv8BAAATAAAAAAL/AQAAFAAAAAACgAEA
+ABUAAAAAAv8KAAAWAAAAAAKIBAAAFwAAAAAC/wQAABgAAAAAAv8EAAAZAAAA
+AAKAAQAAGgAAAAACgAEAABsAAAAAAoABAAAcAAAAAAKAAQAAHQAAAAACgAEA
+AB4AAAAAAoABAAAfAAAAAByAgICAgICAgICAgICAgICAgICAgICAgIABAQEA
+AAAgAAAAABSAAICAgACAgIAAgIABAQEAsgGAAQAAAAA=
+</ExportData>
+                <ExportDataSize>533</ExportDataSize>
+            </Export>
+            <SelectedPictureControl>0</SelectedPictureControl>
+            <AutoContrast>255</AutoContrast>
+            <AutoSaturation>255</AutoSaturation>
+            <SelectedPictureControlVersion2>0</SelectedPictureControlVersion2>
+            <SavedPicConProcess>0</SavedPicConProcess>
+            <PictureControl>2</PictureControl>
+        </parameters>
+    </filter>
+    <filter id="nikon::QuickFixToneCurve">
+        <active>true</active>
+        <parameters>
+            <double name="QuickFixToneCurve.ymax">1</double>
+            <double name="QuickFixToneCurve.ymin">0</double>
+            <double name="QuickFixToneCurve.black">0</double>
+            <double name="QuickFixToneCurve.gammaVal">1</double>
+            <double name="QuickFixToneCurve.white">1</double>
+            <points name="QuickFixToneCurve.pointsOut">
+                <pointOfPoints x="0" y="0"/>
+                <pointOfPoints x="1" y="1"/>
+            </points>
+        </parameters>
+    </filter>
+    <filter id="nik::GaussianBlur">
+        <active>false</active>
+        <parameters>
+            <integer name="Opacity">100</integer>
+            <double name="RadiusNew">1</double>
+        </parameters>
+    </filter>
+    <filter id="nikon::LEGeneral">
+        <active>false</active>
+        <parameters>
+            <EasySharpening>0</EasySharpening>
+        </parameters>
+    </filter>
+    <filter id="Nikon::FishEye">
+        <active>false</active>
+        <parameters>
+            <EmptyAreas>false</EmptyAreas>
+            <FillColor>3</FillColor>
+            <Version>2</Version>
+        </parameters>
+    </filter>
+    <filter id="nikon::Dehaze">
+        <active>false</active>
+        <parameters>
+            <level>7</level>
+            <weight>70</weight>
+            <lowHazeWeight>-100</lowHazeWeight>
+            <rayleighWeight>10</rayleighWeight>
+            <lowHazeTransMax>16</lowHazeTransMax>
+            <lowHazeThreshold>-1</lowHazeThreshold>
+            <histogramThresholdLow>3</histogramThresholdLow>
+            <histogramThresholdHigh>40</histogramThresholdHigh>
+            <lowEntropyThresholdLow>170</lowEntropyThresholdLow>
+            <lowEntropyThresholdHigh>300</lowEntropyThresholdHigh>
+            <blockSizeX>4</blockSizeX>
+            <blockSizeY>4</blockSizeY>
+        </parameters>
+    </filter>
+    <filter id="nikon::ColorBalance">
+        <active>true</active>
+        <parameters>
+            <integer name="ColorBalance.slBrightness">0</integer>
+            <integer name="ColorBalance.slContrast">0</integer>
+            <integer name="ColorBalance.slRed">0</integer>
+            <integer name="ColorBalance.slGreen">0</integer>
+            <integer name="ColorBalance.slBlue">0</integer>
+        </parameters>
+    </filter>
+    <filter id="nikon::Flare">
+        <active>false</active>
+        <parameters>
+            <integer name="flare">0</integer>
+        </parameters>
+    </filter>
+    <filter id="nikon::SkinTone">
+        <active>false</active>
+        <parameters>
+            <integer name="faceColorHue">128</integer>
+            <integer name="faceColorHueStep">4</integer>
+            <integer name="faceColorBrigntness">128</integer>
+            <integer name="faceColorBrigntnessStep">4</integer>
+        </parameters>
+    </filter>
+    <filter id="nikon::Vignette">
+        <active>false</active>
+        <parameters>
+            <integer name="intensity">0</integer>
+        </parameters>
+    </filter>
+    <filter id="nikon::Perspective">
+        <active>false</active>
+        <parameters>
+            <integer name="horizontalAngle">0</integer>
+            <integer name="verticalAngle">0</integer>
+        </parameters>
+    </filter>
+    <filter id="nikon::ChrAb">
+        <active>true</active>
+        <parameters/>
+    </filter>
+    <filter id="nikon::UnsharpMask">
+        <active>false</active>
+        <parameters>
+            <stringarray name="USM.lb.value"/>
+        </parameters>
+    </filter>
+    <filter id="nikon::ColorBooster">
+        <active>false</active>
+        <parameters>
+            <integer name="ColorBooster.active">0</integer>
+            <integer name="ColorBooster.chkMethod">1</integer>
+            <integer name="ColorBooster.slLevel">0</integer>
+        </parameters>
+    </filter>
+    <filter id="nikon::NXHistory">
+        <active>true</active>
+        <parameters>
+            <historystep>
+                <version>20</version>
+                <feather>0</feather>
+                <featherEnabled>false</featherEnabled>
+                <baseFill>0</baseFill>
+                <baseFillEnabled>true</baseFillEnabled>
+                <paintToolsEnabled>true</paintToolsEnabled>
+                <mixerEnabled>true</mixerEnabled>
+                <adjustmentData>
+                    <data id="NkOneStepAdjustment">true</data>
+                </adjustmentData>
+                <filter id="nik::Straighten">
+                    <active>true</active>
+                    <parameters>
+                        <integer name="autoCrop">0</integer>
+                        <double name="rotateAngle">0.9</double>
+                        <integer name="rotateMode">2</integer>
+                        <integer name="Version">1</integer>
+                        <integer name="nik.BlendingMode">0</integer>
+                        <integer name="nik.ChannelMode">0</integer>
+                        <integer name="nik.MixerActive">0</integer>
+                        <integer name="nik.Opacity1">100</integer>
+                        <integer name="nik.Opacity2">100</integer>
+                        <integer name="nik.Opacity3">100</integer>
+                    </parameters>
+                </filter>
+            </historystep>
+        </parameters>
+    </filter>
+    <filter id="nikon::SkinSoftening">
+        <active>false</active>
+        <parameters>
+            <type>0</type>
+        </parameters>
+    </filter>
+    <filter id="nik::LevelsCurves">
+        <active>false</active>
+        <parameters>
+            <double name="Curves.luminance.ymax">1</double>
+            <double name="Curves.luminance.ymin">0</double>
+            <double name="Curves.luminance.black">0</double>
+            <double name="Curves.luminance.gammaVal">1</double>
+            <double name="Curves.luminance.white">1</double>
+            <points name="Curves.luminance.pointsOut">
+                <pointOfPoints x="0" y="0"/>
+                <pointOfPoints x="1" y="1"/>
+            </points>
+            <double name="Curves.red.ymax">1</double>
+            <double name="Curves.red.ymin">0</double>
+            <double name="Curves.red.black">0</double>
+            <double name="Curves.red.gammaVal">1</double>
+            <double name="Curves.red.white">1</double>
+            <points name="Curves.red.pointsOut">
+                <pointOfPoints x="0" y="0"/>
+                <pointOfPoints x="1" y="1"/>
+            </points>
+            <double name="Curves.green.ymax">1</double>
+            <double name="Curves.green.ymin">0</double>
+            <double name="Curves.green.black">0</double>
+            <double name="Curves.green.gammaVal">1</double>
+            <double name="Curves.green.white">1</double>
+            <points name="Curves.green.pointsOut">
+                <pointOfPoints x="0" y="0"/>
+                <pointOfPoints x="1" y="1"/>
+            </points>
+            <double name="Curves.blue.ymax">1</double>
+            <double name="Curves.blue.ymin">0</double>
+            <double name="Curves.blue.black">0</double>
+            <double name="Curves.blue.gammaVal">1</double>
+            <double name="Curves.blue.white">1</double>
+            <points name="Curves.blue.pointsOut">
+                <pointOfPoints x="0" y="0"/>
+                <pointOfPoints x="1" y="1"/>
+            </points>
+        </parameters>
+    </filter>
+    <filter id="nikon::RedEye">
+        <active>false</active>
+        <parameters>
+            <integer name="CrntMode">0</integer>
+            <bool name="KeepAutoRegions">false</bool>
+            <redeyelists name="AutoLists"/>
+            <redeyelists name="OneClickLists"/>
+        </parameters>
+    </filter>
+    <filter id="nikon::Diffraction">
+        <active>true</active>
+        <parameters/>
+    </filter>
+    <filter id="nikon::Distortion">
+        <active>false</active>
+        <parameters>
+            <auto>false</auto>
+            <type>0</type>
+        </parameters>
+    </filter>
+    <filter id="nikon::ApplicationData">
+        <active>true</active>
+        <parameters>
+            <data id="app:orientation">0</data>
+        </parameters>
+    </filter>
+    <filter id="nikon::LongChrAb">
+        <active>false</active>
+        <parameters>
+            <integer name="LongChrAb.Adjustment">50</integer>
+        </parameters>
+    </filter>
+    <filter id="nikon::ExposureSettings">
+        <active>true</active>
+        <parameters>
+            <ApplyGain>false</ApplyGain>
+            <Gain>0</Gain>
+            <ApplyToneCurve>true</ApplyToneCurve>
+            <ToneCurve>0</ToneCurve>
+            <ApplyColorMode>true</ApplyColorMode>
+            <ColorReproductionMode>0</ColorReproductionMode>
+            <ApplyHueAdjustment>true</ApplyHueAdjustment>
+            <HueAdjustment>3</HueAdjustment>
+            <ApplySharpening>true</ApplySharpening>
+            <Sharpening>0</Sharpening>
+            <ApplySaturationAdjustment>true</ApplySaturationAdjustment>
+            <SaturationAdjustment>0</SaturationAdjustment>
+            <ApplyDigitalColorEffectFilter>true</ApplyDigitalColorEffectFilter>
+            <DigitalColorEffectFilter>0</DigitalColorEffectFilter>
+            <ApplyActiveDLightingFilter>false</ApplyActiveDLightingFilter>
+            <ActiveDLightingFilter>0</ActiveDLightingFilter>
+        </parameters>
+    </filter>
+    <filter id="nik::LCH">
+        <active>false</active>
+        <parameters>
+            <double name="LCHEditor.master.ymax">1</double>
+            <double name="LCHEditor.master.ymin">0</double>
+            <double name="LCHEditor.master.black">0</double>
+            <double name="LCHEditor.master.gammaVal">1</double>
+            <double name="LCHEditor.master.white">1</double>
+            <points name="LCHEditor.master.pointsOut">
+                <pointOfPoints x="0" y="0"/>
+                <pointOfPoints x="1" y="1"/>
+            </points>
+            <binary name="nik.LUT.double.LCHEditor.color.pointWidth"/>
+            <points name="LCHEditor.color.pointsOut"/>
+            <binary name="nik.LUT.double.LCHEditor.croma.pointWidth"/>
+            <integer name="LCHEditor.croma.offset">0</integer>
+            <points name="LCHEditor.croma.pointsOut"/>
+            <integer name="LCHEditor.croma.exclude">0</integer>
+            <integer name="LCHEditor.hue.offset">0</integer>
+            <binary name="nik.LUT.double.LCHEditor.hue.pointWidth"/>
+            <points name="LCHEditor.hue.pointsOut"/>
+        </parameters>
+    </filter>
+    <filter id="nikon::QuickFixContrast">
+        <active>true</active>
+        <parameters>
+            <integer name="QuickFixContrast">0</integer>
+        </parameters>
+    </filter>
+    <filter id="nik::GrainNoise">
+        <active>false</active>
+        <parameters>
+            <integer name="GrainMode">0</integer>
+            <integer name="ColorMode">0</integer>
+            <integer name="Strength">36</integer>
+            <integer name="CameraCompatible">true</integer>
+        </parameters>
+    </filter>
+    <filter id="nikon::DustOff">
+        <active>true</active>
+        <parameters>
+            <cameraType>1064</cameraType>
+            <map>
+                <mapSize>0</mapSize>
+            </map>
+            <dateAndTime>
+                <year>1900</year>
+                <month>1</month>
+                <day>1</day>
+                <hour>0</hour>
+                <minute>0</minute>
+                <second>0</second>
+            </dateAndTime>
+        </parameters>
+    </filter>
+    <filter id="nikon::transform">
+        <active>true</active>
+        <parameters>
+            <integer name="Rotation">0</integer>
+            <integer name="PreRotation">0</integer>
+            <bool name="Flip">false</bool>
+        </parameters>
+    </filter>
+    <filter id="nikon::SizeRes">
+        <active>true</active>
+        <parameters>
+            <binary name="Data">iSpk9GOs0RGndwCqALHBtwMAzQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKDH
+QAAAAAAAcL9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAACgx0AAAAAAAHC/QAAAAAAAoMdAAAAAAABwv0Ap
+XI/C9Sg0QNQGOm2g0ypAAAAAAADAckAAAAAAAADwPwAAAAAAwIJAAAAAAADA
+ckAAAAAAAADwPwAAAAAAoLdAAAAAAABwr0AAAAAAsDV3QcwQWfc2DPg/AA==
+</binary>
+        </parameters>
+    </filter>
+    <filter id="nikon::PhotoEffects">
+        <active>false</active>
+        <parameters>
+            <integer name="PhotoEffects.cbEffect">0</integer>
+            <integer name="PhotoEffects.chkDarkTones">false</integer>
+            <integer name="PhotoEffects.slBrightness">0</integer>
+            <integer name="PhotoEffects.slRed">0</integer>
+            <integer name="PhotoEffects.slGreen">0</integer>
+            <integer name="PhotoEffects.slBlue">0</integer>
+        </parameters>
+    </filter>
+    <filter id="nikon::Brightness">
+        <active>false</active>
+        <parameters>
+            <brightness>0</brightness>
+            <autoValue>0</autoValue>
+            <enhancedBlack>false</enhancedBlack>
+        </parameters>
+    </filter>
+    <filter id="nikon::ActiveDLighting">
+        <active>true</active>
+        <parameters>
+            <integer name="ShadowProtection">0</integer>
+            <integer name="ColorBoost">0</integer>
+            <integer name="LocalContrast">50</integer>
+            <integer name="ColorBalance">50</integer>
+            <integer name="ShadowTotalWidth">75</integer>
+            <integer name="HighlightTotalWidth">25</integer>
+            <integer name="HighlightProtection">0</integer>
+        </parameters>
+    </filter>
+    <filter id="nikon::NoiseReduction">
+        <active>true</active>
+        <parameters>
+            <integer name="NoiseReduction.version">13</integer>
+            <integer name="NoiseReduction.enableNoiseReduction">1</integer>
+            <integer name="NoiseReduction.enableColorNoiseReduction">1</integer>
+            <integer name="NoiseReduction.cbMethod">3</integer>
+            <integer name="NoiseReduction.slIntensity">0</integer>
+            <integer name="NoiseReduction.slSharpness">5</integer>
+            <integer name="NoiseReduction.slIntensity2">0</integer>
+            <integer name="NoiseReduction.slSharpness2">50</integer>
+            <integer name="NoiseReduction.slChrIntensity2">0</integer>
+            <integer name="NoiseReduction.slChrSharpness2">50</integer>
+            <integer name="NoiseReduction.slIntensity3">1</integer>
+            <integer name="NoiseReduction.nrtype">0</integer>
+            <integer name="NoiseReduction.chkEdge">0</integer>
+            <integer name="NoiseReduction.chkSpike">0</integer>
+            <integer name="NoiseReduction.moire">0</integer>
+            <integer name="NoiseReduction.endableMore">0</integer>
+        </parameters>
+    </filter>
+    <filter id="nikon::PixelShiftNoiseReduction">
+        <active>true</active>
+        <parameters/>
+    </filter>
+    <filter id="nikon::DLightingHQ">
+        <active>false</active>
+        <parameters>
+            <shadowAdjustment>50</shadowAdjustment>
+            <highlightAdjustment>1</highlightAdjustment>
+            <colorBoost>60</colorBoost>
+        </parameters>
+    </filter>
+</userData>

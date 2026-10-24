@@ -1,0 +1,14 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+  </Configurations>
+  <Folder Name="/Solution Items/">
+    <File Path=".gitignore" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Build.targets" />
+    <File Path="README.md" />
+  </Folder>
+  <Project Path="src/app/nksc-edit.vcxproj" Id="a4ee05e9-65ed-4f6b-9a6e-0e31c35891c8" />
+  <Project Path="src/core/nksc-core.vcxproj" Id="37aa6041-caf2-48a8-adfe-57136c0c0644" />
+  <Project Path="tests/nksc-edit-tests.vcxproj" Id="694ae728-adac-4a33-b25e-5ffeee5ee72c" />
+</Solution>
