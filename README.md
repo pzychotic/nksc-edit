@@ -1,5 +1,8 @@
 # nksc-edit
 
+[![GitHub License](https://badgen.net/github/license/pzychotic/nksc-edit)](https://github.com/pzychotic/nksc-edit/blob/main/LICENSE)
+[![CI](https://github.com/pzychotic/nksc-edit/actions/workflows/ci.yml/badge.svg)](https://github.com/pzychotic/nksc-edit/actions/workflows/ci.yml)
+
 A command line tool to edit Nikon NX Studio sidecar files (`.nksc`) without opening NX Studio.
 It can change exposure gain, straighten (roll) angle, crop and white balance (color temperature
 and image balance), and dump the edit settings as readable XML.
